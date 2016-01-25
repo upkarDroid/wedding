@@ -158,24 +158,24 @@ and open the template in the editor.
                 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsr7n0Uz4zdFhtZAHQzYGvUZ2FE1wWa2Y&callback=initMap">
         </script>
         <script>
-            var map;
-            function initMap() {
-                var myLatLng = {lat:29.98088, lng:77.0322865};
-                map = new google.maps.Map(document.getElementById('map'), {
-                    center: myLatLng,
-                    zoom: 17,
-                    scrollwheel: false
-                });
-
-                map.addListener('click', function () {
-                    window.open("https://www.google.co.in/maps/place/ANMOL+GARDEN/@29.98088,77.0322865,17z/data=!3m1!4b1!4m2!3m1!1s0x390e5b60b3f47869:0x71e302c722b6b069");
-                });
-
-                var marker = new google.maps.Marker({
-                    position: myLatLng,
-                    map: map
-                });
-            }
+//            var map;
+//            function initMap() {
+//                var myLatLng = {lat:29.98088, lng:77.0322865};
+//                map = new google.maps.Map(document.getElementById('map'), {
+//                    center: myLatLng,
+//                    zoom: 17,
+//                    scrollwheel: false
+//                });
+//
+//                map.addListener('click', function () {
+//                    window.open("https://www.google.co.in/maps/place/ANMOL+GARDEN/@29.98088,77.0322865,17z/data=!3m1!4b1!4m2!3m1!1s0x390e5b60b3f47869:0x71e302c722b6b069");
+//                });
+//
+//                var marker = new google.maps.Marker({
+//                    position: myLatLng,
+//                    map: map
+//                });
+//            }
         </script>
         <!--<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
         <script src="scripts/custom.js"></script>
